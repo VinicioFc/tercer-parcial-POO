@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author LABS-ESPE
+ */
+public class Persona { // Es recomendable que el nombre de la clase comience con mayúscula
+    String nombre;
+    String apellido;
+    String edad;
+
+    // Constructor
+    public Persona(String nombre, String apellido, String edad) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
+    }
+    public static void main(String[] args) {
+        // Instanciando un objeto de la clase Persona
+        Persona p1 = new Persona("Juan", "Pérez", "30");
+        System.out.println("Nombre: " + p1.nombre);
+        System.out.println("Apellido: " + p1.apellido);
+        System.out.println("Edad: " + p1.edad);
+    }
+   
+}
