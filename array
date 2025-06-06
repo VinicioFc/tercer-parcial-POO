@@ -1,0 +1,54 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.clase2;
+
+import java.util.ArrayList;
+
+/**
+ *
+ * @author LABS-ESPE
+ */
+public class Clase2 {
+
+    public static void main(String[] args) {
+    String []numero =new String [5];
+    numero [0]="1";
+    numero [1]="2";
+    numero [2]="3";
+    numero [3]="4";
+    numero [4]="5";
+    
+        System.out.println(numero[0]);
+        System.out.println(numero[1]);
+        System.out.println(numero[2]);
+        System.out.println(numero[3]);
+        System.out.println(numero[4]);
+        System.out.println(numero[5]);
+        
+        for (int i=0 ; i < numero.length ;i++){
+            System.out.println(numero[i]);
+        }
+        for ( String Co : numero )
+        {
+            System.out.println(numero);
+        }
+        /*
+        ArrayList < String > numeroArrayList = new ArrayList <> ();
+        */
+        ArrayList < Integer > numerol = new ArrayList <> ();
+        
+        numerol.add(20);
+        numerol.add(19);
+        numerol.add(18);
+        numerol.add(17);
+        numerol.add(16);
+
+           for ( int i =  0; i < numerol.size ();i++)
+                {
+                    System.out.println(numerol);
+                }
+          numero
+    }
+}
